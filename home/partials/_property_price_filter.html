@@ -1,0 +1,46 @@
+<div class="box box-solid box-default no-margin">
+
+
+    <div class="box-body property-filter-box bg-gray-light">
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="property-filter-title">
+                    <h4 class="">Price Range
+                    </h4>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row">
+
+            <div class="col-md-12">
+                <slider
+                    id="green"
+                    prefix="$"
+                    slider-id="{{homeController.sliderOptions.sliderId}}"
+                    ng-model="homeController.sliderOptions.current_value"
+                    min="homeController.sliderOptions.min"
+                    max="homeController.sliderOptions.max"
+                    range="homeController.sliderOptions.range"
+                    orientation="{{ homeController.sliderOptions.orientation }}"
+                    slider-tooltip-position="{{homeController.sliderOptions.tooltip_position}}"
+                    handle="{{ homeController.sliderOptions.handle }}"
+                    tooltip="{{ homeController.sliderOptions.tooltip }}"
+                    formatter="homeController.sliderOptions.tooltipFormatter(value)">
+                </slider>
+                <h3>
+                    <span class="pull-left"> {{homeController.sliderOptions.current_value[0] | abbreviate}}</span>
+                    <span class="pull-right"> {{homeController.sliderOptions.current_value[1] | abbreviate}}</span>
+                </h3>
+
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+</div>

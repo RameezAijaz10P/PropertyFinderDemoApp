@@ -1,0 +1,61 @@
+<!-- Small boxes (Stat box) -->
+<div class="row">
+    <div class="col-md-12">
+
+        <div class="box box-success animated fadeInRight">
+            <div class="box-header with-border bg-black ">
+                <h3 class="box-title with-green-border-left">Find the home you are looking for</h3>
+
+                <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                    </button>
+                    <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body no-padding">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ng-include src="'home/partials/_location_header.html'"></ng-include>
+                        <ng-include src="'home/partials/_property_type_filter.html'"></ng-include>
+                        <ng-include src="'home/partials/_property_price_filter.html'"></ng-include>
+                        <ng-include src="'home/partials/_must_have_filter.html'"></ng-include>
+
+                        <div class="box box-solid box-default no-margin">
+
+
+                            <div class="box-body property-filter-box bg-gray-light">
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="pull-right">
+                                            <div class="">
+                                                <button class="btn btn-lg btn-default margin-r-5 bg-gray-active" ng-click="homeController.clearSelection()">Clear Selection <i class="fa fa-close"></i></button>
+                                                <button class="btn btn-lg btn-success">Find Your Home <i class="fa fa-angle-right"></i></button>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- /.col -->
+            </div>
+
+
+
+
+        </div>
+        <!-- /.box-body -->
+    </div>
+</div>
+
+
+</div><!-- /.row -->
+<!-- Main row -->
