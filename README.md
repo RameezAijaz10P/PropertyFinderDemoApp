@@ -15,4 +15,14 @@ url https://propertyfinder.firebaseapp.com/#/home
 3) Hit the dist folder to see the minified version<br />
 
 
+#Directory Structure ?
+1) Assets directory contains all the assets angular filters, angular directives, css and images etc<br />
+2) base_template contains the base or parent view and controller<br />
+3) bower_components contains all the bower_components<br />
+4) config contains the ui-route file<br />
+5) dist contains the minified ready to deploy destribution of the project<br />
+6) home cotains view , controller and service for the widget<br />
+
+
+
 
