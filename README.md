@@ -5,14 +5,14 @@ Property Finder - The demo app using angular js
 url https://propertyfinder.firebaseapp.com/#/home
 
 #Features
-1) Resposive
-2) Get the location of the User
-3) Have the build mechanism
+1) Resposive<br />
+2) Get the location of the User<br />
+3) Have the build mechanism<br />
 
 #How to Run ?
-1) Clone this app
-2) Deploy it on any server (Apache, Node or any other)
-3) Hit the dist folder to see the minified version
+1) Clone this app<br />
+2) Deploy it on any server (Apache, Node or any other)<br />
+3) Hit the dist folder to see the minified version<br />
 
 
 
